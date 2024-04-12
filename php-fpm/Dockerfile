@@ -55,7 +55,8 @@ RUN install-php-extensions \
     redis \
     imagick \
     sysvsem \
-    opcache
+    opcache \
+    pgsql
 
 
 # Copy optimized php.ini-development and production
